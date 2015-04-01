@@ -8,7 +8,7 @@ Before OSCSoundCloud, you must intitialize it in your AppDelegate.m application:
 
 ```smalltalk
 // Initialize OSCManager for SoundCloud API
-    [[OSCManager sharedManager] setAPI_KEY:@"<YOUR SOUNDCLOUD API CLIENT-KEY HERE>"];
+[[OSCManager sharedManager] setAPI_KEY:@"<YOUR SOUNDCLOUD API CLIENT-KEY HERE>"];
 ```
 
 Thats it! You can now start making calls to the SoundCloud API with OSCSoundCloud.
